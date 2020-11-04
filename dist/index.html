@@ -1,0 +1,71 @@
+<!-- As per today’s top Task Runners & Bundlers
+Few things are required as listed:
+1. Difference between task runners & webpacks
+2. What is a task runner?
+3. What is a webpack?
+4. Why these things are used?
+Try to answer these questions and then do the below assignment:
+1. Make a SASS and ES6 to ES5 compiler with the help of webpack.
+2. Make a gulp task to convert sass to CSS and ES6 to ES5
+Useful Links:
+https://webpack.js.org/concepts/
+https://webpack.js.org/loaders/
+https://gulpjs.com/docs/en/getting-started/quick-start -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a SASS and ES6 to ES5 compiler with the help of webpack</title>
+    <link rel="stylesheet" href="./styles.scss" />
+    
+</head>
+<body>
+    <div class="container">
+        <section class="calculator-wrap">
+            <div class="title-wrapper">
+              <h1 class="calc-title">Casio 9000</h1>
+            </div>
+            <div class="calculator-inner">
+              <form method="GET" name="form" action="#" id="calculator" data-calc-mode="initial" autocomplete="off">
+                  <input type="text" id="calc-display" value="0">
+                  <div class="buttons-wrap">
+                    <div class="button-numbers">  
+                      <button id="btn-1" value="1" data-btn-val="1">1</button>
+                      <button id="btn-2" value="2" data-btn-val="2">2</button>
+                      <button id="btn-3" value="3" data-btn-val="3">3</button>
+                      <button id="btn-4" value="4" data-btn-val="4">4</button>
+                      <button id="btn-5" value="5" data-btn-val="5">5</button>
+                      <button id="btn-6" value="6" data-btn-val="6">6</button>
+                      <button id="btn-7" value="7" data-btn-val="7">7</button>
+                      <button id="btn-8" value="8" data-btn-val="8">8</button>
+                      <button id="btn-9" value="9" data-btn-val="9">9</button>
+                      <button id="btn-0" value="0" data-btn-val="0">0</button>
+                      <button id="percentage-btn" data-operator="percentage">%</button>
+                      <button id="decimal-btn" data-operator="decimal">.</button>
+                    </div>
+                    <div class="buttons-operators"> 
+                      <button id="add-btn" data-operator="add">+</button>
+                      <button id="subtract-btn" data-operator="subtract">-</button>
+                      <button id="divide-btn" data-operator="divide">/</button>
+                      <button id="multiply-btn" data-operator="multiply">*</button>
+                    </div>
+                  </div>
+                  <div class="buttons-methods">
+                    <button id="clear-btn" data-operator="clear">C</button>
+                    <button id="calc-btn" data-operator="equals">=</button>
+                  </div>
+                </form>
+            </div>  
+          </section>
+          
+          <p class="colophon">
+            Another CodePen by <a href="https://richardhuf.com.au">Richard Huf</a>
+          </p>
+    </div>
+ 
+    <script src="../dist/bundle.js"></script>
+    <script src="./index.js"></script>
+<script src="bundle.js"></script></body>
+</html>

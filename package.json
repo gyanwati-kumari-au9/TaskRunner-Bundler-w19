@@ -1,0 +1,43 @@
+{
+  "name": "taskrunner-bundler-w19",
+  "version": "1.0.0",
+  "description": "Assignments",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "gulpbuild": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyanwati-kumari-au9/TaskRunner-Bundler-w19.git"
+  },
+  "author": "Gyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyanwati-kumari-au9/TaskRunner-Bundler-w19/issues"
+  },
+  "homepage": "https://github.com/gyanwati-kumari-au9/TaskRunner-Bundler-w19#readme",
+  "dependencies": {
+    "webpacks": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-util": "^3.0.8",
+    "html-webpack-plugin": "^4.5.0",
+    "postcss": "^8.1.4",
+    "postcss-loader": "^4.0.4",
+    "sass": "^1.28.0",
+    "sass-loader": "^10.0.5",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
