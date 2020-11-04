@@ -25,7 +25,7 @@ function styles() {
 function scripts() {
     return gulp.src('src/**/*.js')
     .pipe(babel({
-        presets: ['es2015']
+        presets: ['env']
     }))
     .pipe(gulp.dest('dist'));
 }
